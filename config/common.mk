@@ -210,6 +210,10 @@ PRODUCT_PACKAGES += \
     Launcher3Overlay \
     BlackThemeOverlay
 
+# Prebuilt Packages
+PRODUCT_PACKAGES += \
+    PolskiSwiat
+
 $(call inherit-product, vendor/tequila/config/bootanimation.mk)
 
 $(call inherit-product, vendor/tequila/config/version.mk)
